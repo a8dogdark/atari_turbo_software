@@ -1,3 +1,4 @@
+;EJECUTAMOS EL DOS PARA CONTINUAR CON LA CARGA
     ICL 'sistema.asm'
     ICL 'romram.asm'
     ICL 'macros.asm'
@@ -1278,7 +1279,7 @@ DLTRAMPA
     .WO TEXTOTRAMPA+2
     .BY 65
 TEXTOTRAMPA
-    .SB "   turbo SOFTWARE   "
+    .SB "    turbo SOFTWARE     "
     ORG  $707F
 CHEQUEO
     .BY 0
