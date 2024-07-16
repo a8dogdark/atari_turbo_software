@@ -1668,11 +1668,15 @@ DL
     .BY $70,$70,$70,$46
 CAMBIO1
     .WO DATA
-    .BY $70,$70,$70,$70,$70,$70,$70,$70,$70,$70
+    .BY $70,$70,$70,$46
+    .WO AGREGO
+    .BY $70,$70,$70,$70,$70,$70
     .BY 65
     .WO DL
 DATA
     .SB "   turbo SOFTWARE   "
+AGREGO
+    .SB "      FUJINET       "
 ROMARAM
     LDA #$40
     PHA 
